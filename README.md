@@ -1,4 +1,4 @@
-# Career Helpi
+# Koalafi
 
 A web app that helps users discover which career field best suits them, powered by the OpenAI API rather than a static list of if/else rules.
 
