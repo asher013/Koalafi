@@ -1,60 +1,75 @@
-# Getting Started with Helpi
+# Koalafi
 
-Packages Included:
-* npm
-* bootstrap
-* react
-* openai
-* other configurations
+A web app that helps users discover which career field best suits them, powered by the OpenAI API rather than a static list of if/else rules.
 
-Career Helpi Goal:
-To showcase various job fields and advise someone on which field or job would best suit them based on their answers to questions.
-- the ultimate decision making algorithm should be done through openai (GPT). Not a long list of if-else statements.
+**[Live Demo →](https://asher013.github.io/Koalafi/)**
 
+## What It Does
 
+Koalafi walks users through a short set of questions about their interests, strengths, and preferences, then uses OpenAI's GPT models to generate a personalized recommendation for which job field or career path might suit them best. Unlike a traditional quiz app built on hardcoded decision trees, the matching logic is handled dynamically by an LLM, allowing for more nuanced and natural-language-driven recommendations.
 
-## React Project Information:
+This project was built as the final project for CISC275 (Software Engineering) at the University of Delaware.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech Stack
 
-## Available Scripts
+- **React 18** + **TypeScript** — component-based UI with static typing
+- **Bootstrap 5** / **react-bootstrap** — responsive styling and layout
+- **OpenAI API** — drives the core recommendation logic
+- **canvas-confetti** — small celebratory UI flourish
+- **Create React App** — build tooling and dev server
+- **GitHub Pages** (`gh-pages`) — deployment
+
+## Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/asher013/Koalafi.git
+cd Koalafi
+npm install
+```
+
+### Environment Setup
+
+This project calls the OpenAI API, so you'll need an API key. Create a `.env` file in the project root:
+
+```
+REACT_APP_OPENAI_API_KEY=your_api_key_here
+```
+
+> **Note:** Never commit your API key. Make sure `.env` is included in `.gitignore`.
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+| Command | Description |
+|---|---|
+| `npm start` | Runs the app in development mode at [http://localhost:3000](http://localhost:3000). Reloads on edit. |
+| `npm test` | Launches the test runner in interactive watch mode. |
+| `npm run build` | Builds an optimized production bundle to the `build/` folder. |
+| `npm run deploy` | Builds and publishes the app to GitHub Pages. |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Structure
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+Koalafi/
+├── public/          # static assets
+├── src/             # application source (components, logic, styling)
+├── package.json     # dependencies and scripts
+└── tsconfig.json    # TypeScript configuration
+```
 
-### `npm test`
+## Roadmap / Possible Improvements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ ] Expand question set for more granular career matching
+- [ ] Add persistent user results (local storage or backend)
+- [ ] Add unit tests for core recommendation logic
+- [ ] Improve accessibility (a11y) across form components
 
-### `npm run build`
+## Acknowledgments
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
+Built with [Create React App](https://github.com/facebook/create-react-app). See the [CRA documentation](https://facebook.github.io/create-react-app/docs/getting-started) and [React documentation](https://reactjs.org/) for more on the underlying tooling.
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
