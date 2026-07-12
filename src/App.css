@@ -1,43 +1,89 @@
-.App{
-  background-color: #fcc9bd;
+html, body {
+  height: 100%;
+  overflow-y: scroll;
+  margin: 0;
+}
 
-  overflow: auto;
-  max-height: 100vh;
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  
+  background-image: url("/public/assets/bg.png");
+  background-color: var(--second-bg-color);
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+
+.Greeting-Box {
+  display: flex;
+  justify-self: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: 20px;
+}
+
+.Greeting-Text {
+  padding: 30px;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color-2);
+  border-radius: 8px;
+  width: 50%;
+  color: var(--text-color-2);
+
+}
+
+.Header-Placeholder{
+  /*background-color: var(--focused-color);*/
+  min-width: 100%;
+  height: var(--header);
 }
 
 .Header-Wrapper {
+  position: fixed;
   display: flex;
-  background-color: #FE604D;
+  min-width: 100%;
+  justify-content: center;
+  background-color: var(--main-color);
   align-items: center;
+  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100000000;
 }
 
 #header-title {
-  font-size: 40px;
+  font-size: var(--header-title);
+  letter-spacing: 1px;
   padding: 15px;
-  color: white;
+  color: var(--text-color);
+  font-family: GloomieSaturday;
   font-weight: bolder;
-  background-color: #FE604D;
-  width: 100%;
+  background-color: var(--main-color);
+  white-space: nowrap;
 }
 
 .Page {
   display: flex;
   flex: 1;
   flex-direction: column;
-  min-height: 100vh;
+
+  min-height: 80vh;
+
 }
 
 footer {
   width: 100%;
-  bottom: 0;
+  margin-top: 30px;
   left: 0;
   padding: 15px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 
 
-  color: white;
+  color: var(--text-color);
   font-weight: bold;
-  background-color:#FE604D;
+  background-color: var(--main-color);
 }
 

@@ -1,0 +1,19 @@
+.NavButton {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    color: var(--text-color);
+
+
+}
+
+.NavButton:hover {
+    background-color: var(--focused-color);
+    border-color: var(--focused-color);
+}
+
+.NavButton:disabled {
+    background-color: var(--focused-color);
+    border-color: var(--focused-color);
+    color: var(--text-color);
+ 
+}

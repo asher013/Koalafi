@@ -1,0 +1,80 @@
+.Detailed-Page {
+    width: 70%;
+    height: 80vh;
+    justify-self: center;
+    padding-top: 30px;
+}
+
+.Detailed-Question-Box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    border: 1px solid var(--border-color-2);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+    padding: 25px;
+    background-color: var(--bg-color);
+}
+
+.Detailed-Question-Question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    text-wrap: balance;
+    font-size: var(--small-text);
+    color: var(--text-color);
+
+    width: 75%;
+    min-height: 100px;
+    margin-bottom: 20px;
+
+    border-radius: 15px;
+    background-image: url("/public/assets/questionbg.png");
+    background-color: var(--text-box-color);
+    background-blend-mode:soft-light;
+    background-size: cover;
+}
+
+.Response-Input {
+    font-size: var(--small-text);
+    vertical-align: top;
+    height: 150px;
+    width: 80%;
+    resize: vertical;
+    line-height: 1.5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Nav-Buttons {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: var(--small-text);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--main-color);
+
+}
+
+.Submit-Button {
+    font-size: var(--small-text);
+    width: 25%;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border: none;
+}
+
+.Submit-Button:disabled {
+    background-color: var(--focused-color);
+    border-color: var(--focused-color);
+    color: var(--text-color);
+}

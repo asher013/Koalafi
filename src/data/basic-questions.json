@@ -1,0 +1,259 @@
+{
+    "QUESTION_1": {
+      "id": 1,
+      "body": "How do you prefer to approach work?",
+      "options": [
+        "I work best independently.",
+        "I like to work alone with ocassional brainstorming.",
+        "I enjoy a balance between collaboration and working alone.",
+        "I prefer to work in a group setting."
+      ]
+    },
+    
+    "QUESTION_2": {
+      "id": 2,
+      "body": "I enjoy working with numbers/data.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+
+    "QUESTION_3": {
+      "id": 3,
+      "body": "What is your relationship with technology/software?",
+      "options": [
+        "I prefer to not deal with technical problems.",
+        "I can use basic technologies but I dislike troubleshooting.",
+        "I like to figure out new tools and systems.",
+        "I deeply enjoy learning and solving technical problems."
+      ]
+    },
+
+    "QUESTION_4": {
+      "id": 4,
+      "body": "What is the most appealing workplace?",
+      "options": [
+        "Climate controlled workplace.",
+        "Mostly indoor with ocassional outdoor work.",
+        "Mix of fieldwork, nature, and office.",
+        "Fully outdoor job in nature."
+      ]
+    },
+
+    "QUESTION_5": {
+      "id": 5,
+      "body": "What role do you prefer on a team?",
+      "options": [
+        "I prefer to follow instructions and contribute my part.",
+        "I like to offer ideas but not be in charge.",
+        "I enjoy leading small projects or mentoring peers.",
+        "I aim to be in a management or leadership position."
+      ]
+    },
+
+    "QUESTION_6": {
+      "id": 6,
+      "body": "I prefer to work in an environment where priorities and tasks change often.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+
+    "QUESTION_7": {
+      "id": 7,
+      "body": "I would like to travel frequently for my career.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+
+    "QUESTION_8": {
+      "id": 8,
+      "body": "I enjoy identifying problems and developing practical/creative solutions.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+    
+    "QUESTION_9": {
+      "id": 9,
+      "body": "Which subject is most enjoyable?",
+      "options": [
+        "Biology or chemistry",
+        "Economics or business",
+        "History or cultural studies",
+        "Engineering or computer science"
+      ]
+    },
+    
+    "QUESTION_10": {
+      "id": 10,
+      "body": "What is more interesting?",
+      "options": [
+        "Politics or social studies",
+        "Natural disasters and phenomena",
+        "Ancient cultures and traditions",
+        "Technology and artificial intelligence"
+      ]
+    },
+    
+    "QUESTION_11": {
+      "id": 11,
+      "body": "I easily get lost with a good book.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+    "QUESTION_12": {
+      "id": 12,
+      "body": "I would prefer a job that requires physical movement or keeps me active.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+    "QUESTION_13": {
+      "id": 13,
+      "body": "I am self motivated and prefer setting my own goals/scheduels.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+    "QUESTION_14": {
+      "id": 14,
+      "body": "I am detail-oriented.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+    "QUESTION_15": {
+      "id": 15,
+      "body": "I want to be my own boss and run my own business.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+    "QUESTION_16": {
+      "id": 16,
+      "body": "I want to work flexible hours.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+    "QUESTION_17": {
+      "id": 17,
+      "body": "Long-term job security is important to me.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+    
+    "QUESTION_18": {
+      "id": 18,
+      "body": "How important is creativitiy in your career?",
+      "options": [
+        "I prefer structured and clear procedure in my work.",
+        "I enjoy small creative tasks such as writing/design.",
+        "I want the opportunity to sometimes brainstorm and innovate",
+        "I need full creative freedom in my career."
+      ]
+    },
+    "QUESTION_19": {
+      "id": 19,
+      "body": "How import is social impact in your career?",
+      "options": [
+        "I prefer to focus on personal growth and income.",
+        "I prefer to have my work help other indirectly.",
+        "I want a job that improves individual lives.",
+        "I want a job that improves global issues and focus on large-scale change."
+      ]
+    },
+    "QUESTION_20": {
+      "id": 20,
+      "body": "What level of education do you expect to have?",
+      "options": [
+        "No high school diploma",
+        "High school diploma or trade certification",
+        "Associate degree or technical school",
+        "Bachelor's degree",
+        "Master's Degree",
+        "Doctoral Degree"
+      ]
+    },
+    "QUESTION_21": {
+      "id": 21,
+      "body": "I like to work with my hands.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+    "QUESTION_22": {
+      "id": 22,
+      "body": "What do you enjoy in your free time?",
+      "options": [
+        "Solving puzzles or playing strategy games.",
+        "Reading or watching documentaries.",
+        "Drawing, writing, or making music.",
+        "Organizing, cleaning, or doing chores"
+      ]
+    },
+    "QUESTION_23": {
+      "id": 23,
+      "body": "I enjoy teaching or mentoring others.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    }
+}
+  
