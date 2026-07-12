@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Koalafi/static/css/main.d7dc539a.css",
+    "main.js": "/Koalafi/static/js/main.c027680a.js",
+    "static/js/453.bad6c33a.chunk.js": "/Koalafi/static/js/453.bad6c33a.chunk.js",
+    "static/media/questionbg.png": "/Koalafi/static/media/questionbg.463f1504c4801c9fcac5.png",
+    "static/media/bg.png": "/Koalafi/static/media/bg.e4b99cabf4778b19d1f6.png",
+    "static/media/DynaPuff-VariableFont_wdth,wght.ttf": "/Koalafi/static/media/DynaPuff-VariableFont_wdth,wght.6c189ed90c6bc87a7610.ttf",
+    "static/media/Gloomie Saturday.otf": "/Koalafi/static/media/Gloomie Saturday.c7f43a8039779914195d.otf",
+    "index.html": "/Koalafi/index.html",
+    "main.d7dc539a.css.map": "/Koalafi/static/css/main.d7dc539a.css.map",
+    "main.c027680a.js.map": "/Koalafi/static/js/main.c027680a.js.map",
+    "453.bad6c33a.chunk.js.map": "/Koalafi/static/js/453.bad6c33a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7dc539a.css",
+    "static/js/main.c027680a.js"
+  ]
+}
